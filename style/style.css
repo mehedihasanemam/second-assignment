@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 
 
 .inter-font {
@@ -9,31 +11,37 @@
     font-style: normal;
 }
 
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
 /* body styles */
 body {
     margin: 0 auto;
-     width: 1140px;
-     background: rgb(0, 0, 0);
+    width: 1140px;
+    background: rgb(0, 0, 0);
 }
 
 /* nav related styles */
-nav {
+.nav-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.nav-section,
 nav ul {
     display: flex;
 
 }
 
-nav ul li {
+.nav-section,
+ul li {
     list-style: none;
     margin-right: 47px;
 }
 
-nav ul li a {
+.nav-section ul li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -46,8 +54,339 @@ nav ul li a {
     color: rgb(230, 83, 60);
 }
 
-.nav-home {
-    padding: 8px 20px 8px 20px;
-    border-radius: 46px;
+.shape-italic {
+    font-family: 'Miama', sans-serif;
+    font-size: 140px;
+
+}
+
+.body-section {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.body-header {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.prg-title {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.color-button {
+    border-radius: 42px;
     background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    width: 224px;
+    height: 54px;
+    gap: 10;
+    padding: 16px 40px 16px 40px;
+    margin: 0px 14px;
+
+}
+
+.white-button {
+    border-radius: 42px;
+    color: aliceblue;
+
+    width: 224px;
+    height: 54px;
+    gap: 10;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background-color: black;
+
+
+}
+
+.button-div {
+    display: flex;
+}
+
+
+
+.bg-image {
+    background-image: url(../B10A2-versatile-ui-main/images/images\ 2.png);
+    background-repeat: no-repeat;
+     width: 349px;
+    height: 580px;
+
+}
+
+.flex-end {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-items: center;
+    margin-top: 142px;
+    margin-left: 250px;
+    color: aliceblue;
+    width: 192px;
+    height: 98px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.revers {
+  
+    align-items: center;
+    margin-top: 200px;
+    margin-left: -70px;
+    position: absolute;
+    color: aliceblue;
+    width: 192px;
+    height: 98px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.image-section {
+    
+    margin: 0 auto;
+    
+}
+
+.habite {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-div {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle-img {
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.Movement {
+    color: aliceblue;
+  
+}
+
+.pr-Movement {
+    color: aliceblue;
+    align-items: center;
+    
+}
+
+.div-run {
+    display: flex;
+    border-radius: 18px;
+
+    background: rgb(34, 34, 34);
+    justify-content: space-between;
+
+    border-radius: 30px;
+    padding: 20px 90px;
+    margin: 50px;
+}
+
+.div-extra {}
+
+.image-run {
+    width: 100%;
+    border-radius: 30px;
+
+}
+
+.run {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.We-believe {
+    color: rgba(247, 216, 216, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.bmi-section {
+    background-color: rgb(34, 34, 34);
+}
+
+.bmi-header {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+
+}
+
+.calculator {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    
+}
+
+input {
+    background-color: rgb(91, 67, 67);
+    border-radius: 10px;
+    gap: 10px;
+}
+
+table {
+    border-collapse: collapse
+}
+
+td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+.calculator-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+}
+
+
+
+.conteainar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100px;
+    gap: 20px;
+    background-color: rgb(34, 34, 34);
+    padding: 20px;
+
+}
+
+.img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.trainer {
+    color: aliceblue;
+    margin-top: -90px;
+    margin-left: 30px;
+}
+
+.trainer-p {
+    color: rgb(98, 107, 116);
+    margin-left: 30px;
+}
+
+.footer {
+    background-color: rgb(25, 28, 31);
+}
+
+.footer-div {
+
+    color: rgb(65, 78, 88);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-header {
+    text-align: center;
+    color: rgb(48, 53, 57);
+}
+
+.headers {
+    margin-left: 40px;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 576px) {
+    .body-section {
+        display: grid;
+        /* grid-template-columns: ; */
+    }
+
+    .body-header {
+        font-size: 36px;
+    }
+
+    .image-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .image-div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .image-div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .habite {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Movement,
+    .conteainar {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pr-Movement {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .circle-img {
+        width: 30%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    .div-run {
+        flex-direction: column;
+    }
+
+    .calculator-div {
+        flex-direction: column;
+    }
+
+    .footer-div{
+        flex-direction: column; 
+    }
+   .image-run{
+    width: 50%;
+   }
+   .div-extra{
+    width: 50%;
+   }
+   .div-run{
+    width: 50%;
+   }
 }
